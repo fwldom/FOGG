@@ -5,11 +5,16 @@ numr2 = int(turtle.textinput(title="Enter Number Range", prompt=("Enter Number o
 num2 = int(turtle.textinput(title="Enter Number left", prompt=("Enter left Range !")))
 num3 = int(turtle.textinput(title="Enter Number Right", prompt=("Enter left End Range  !  ")))
 width = int(turtle.textinput(title="Enter Number width", prompt=("Enter width !  ")))
+s=turtle.Screen()
+s.bgcolor(turtle.textinput(title="Enter Color", prompt=("Enter Color BackGround !  "))) 
+ColorText=(turtle.textinput(title="Enter Color", prompt=("Enter Color  !  "))) 
 laki = turtle.Turtle()
 laki.shape('turtle')
 laki.width(width)
+
 for i in range(numr1):
     for j in range(numr2):
+        laki.pencolor(ColorText)
         laki.forward(num)
         laki.left(num2)
     laki.right(num3)
