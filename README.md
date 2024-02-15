@@ -1,5 +1,5 @@
 # FOGG
-FOGG GAME . For Woman Life Freedom . Made by Fwldom
+FOGG GAME . Made by Fwldom
 Run Game Fun
 ```
 git clone https://github.com/fwldom/FOGG.git
